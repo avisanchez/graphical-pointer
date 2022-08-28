@@ -17,4 +17,21 @@ Java Swing extension for ease-of-use GUI development
 1. **Pointer.setCustomColor(Color c)** - sets the color of the pointer text to whatever is passed as the argument
 2. **Pointer.setCustomFont(Font f)** - sets the font of the pointer text to whatever is passed as the argument
 
+## Sample Code ##
+`code()`
+var specificLanguage_code = 
+    {
+        "data": {
+            "lookedUpPlatform": 1,
+            "query": "Kasabian+Test+Transmission",
+            "lookedUpItem": {
+                "name": "Test Transmission",
+                "artist": "Kasabian",
+                "album": "Kasabian",
+                "picture": null,
+                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
+            }
+        }
+    }
+
 
