@@ -17,8 +17,9 @@ Java Swing extension for ease-of-use GUI development
 1. **Pointer.setCustomColor(Color c)** - sets the color of the pointer text to whatever is passed as the argument
 2. **Pointer.setCustomFont(Font f)** - sets the font of the pointer text to whatever is passed as the argument
 
-## Sample Code ##
-`code()`
+## Sample implementation ##
+```javascript
+
 var specificLanguage_code = 
     {
         "data": {
@@ -33,5 +34,6 @@ var specificLanguage_code =
             }
         }
     }
+```
 
 
