@@ -18,22 +18,29 @@ Java Swing extension for ease-of-use GUI development
 2. **Pointer.setCustomFont(Font f)** - sets the font of the pointer text to whatever is passed as the argument
 
 ## Sample implementation ##
-```javascript
+```java
 
-var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
-        }
+import javax.swing.JPanel;
+import java.awt.Graphics;
+
+public class Screen extends JPanel {
+
+    public Screen() {
+        // initializes pointer
+        Pointer.setReferenceScreen(this);
     }
+    
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        randomMethod1();
+
+        randomMethod2();
+
+        // put at end of draw loop
+        Pointer.draw(g);
+    }
+}
 ```
 
 
