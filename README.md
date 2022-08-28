@@ -7,7 +7,7 @@ Java Swing extension for ease-of-use GUI development
 * In your screen's paintComponent() method, call **Pointer.draw()** passing in whatever you chose to call your Graphics variable
   * *For best practice, invoke Pointer.draw() at the end of your paintComponent() method to ensure it is not hidden behind other components*
 
-## How to use ##
+## How To Use ##
 * Press and hold 'shift' to see live mouse coordinates
 * Click to drop pinpoint
 * To move a pinpoint, press and drag the circle surrounding it
