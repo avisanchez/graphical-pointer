@@ -3,7 +3,7 @@ Java Swing extension to aid in GUI development
 
 ## Setup ##
 * Copy the Pointer.java file into your project folder
-* In your screen class's constructor, initialize the pointer by calling **Pointer.setScreenReference(this)**
+* In your screen class's constructor, initialize the pointer by calling **Pointer.setReferenceScreen(this)**
 * In your screen's paintComponent() method, call **Pointer.draw()** passing in whatever you chose to call your Graphics variable
   * *For best practice, invoke Pointer.draw() at the end of your paintComponent() method to ensure it is not hidden behind other components*
 
