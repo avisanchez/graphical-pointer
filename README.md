@@ -1,5 +1,5 @@
 # graphical-pointer
-Java Swing extension to aid in GUI development
+Java Swing extension make GUI development easier
 
 ## Setup ##
 * Copy the Pointer.java file into your project folder
